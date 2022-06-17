@@ -15,7 +15,6 @@ class neuralNetwork:
         # 行列の計算式
         # w11 w21
         # w12 w22 etc
-        # P.160
         self.wih = numpy.random.normal(0.0, pow(self.inodes, -0.5), (self.hnodes, self.inodes))
         self.who = numpy.random.normal(0.0, pow(self.hnodes, -0.5), (self.onodes, self.hnodes))
 
